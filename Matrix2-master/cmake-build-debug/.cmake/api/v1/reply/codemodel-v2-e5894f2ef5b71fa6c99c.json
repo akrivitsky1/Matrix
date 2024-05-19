@@ -1,0 +1,392 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src"
+				},
+				{
+					"build" : "src/Matrix",
+					"jsonFile" : "directory-src.Matrix-Debug-ba770ee65acaaf62505c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/Matrix",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/Vector",
+					"jsonFile" : "directory-src.Vector-Debug-8c0adb66b51f03c53642.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/Vector",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "testing",
+					"childIndexes" : 
+					[
+						5,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-testing-Debug-bf95ed3c3cffabd51e37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "testing",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-Debug-fa1b18db30f420365ea4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "cmake-build-debug/_deps/googletest-src"
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-6d8ca652299facbcd5a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "cmake-build-debug/_deps/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-1e413c126300149bcf7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 7,
+					"source" : "cmake-build-debug/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "testing/Vector",
+					"jsonFile" : "directory-testing.Vector-Debug-20e4f74e8bd982ca2bdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 8,
+					"source" : "testing/Vector",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "testing/Matrix",
+					"jsonFile" : "directory-testing.Matrix-Debug-bb0c3be28350c932327c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 9,
+					"source" : "testing/Matrix",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MatrixBuilder"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Matrix",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "MatrixMatrix",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "MatrixVector",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "MatrixTesting",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 4
+				},
+				{
+					"childIndexes" : 
+					[
+						7
+					],
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gmock",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "gtest",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "MatrixVectorTesting",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "MatrixVectorTesting",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "MatrixMatrix::@2f28bb0c51264851f363",
+					"jsonFile" : "target-MatrixMatrix-Debug-c2cc3298a0bed656106f.json",
+					"name" : "MatrixMatrix",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "MatrixTester::@7f5979fb78f082e8b1c6",
+					"jsonFile" : "target-MatrixTester-Debug-6487af7096e203c1c657.json",
+					"name" : "MatrixTester",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MatrixTesting::@e05a73be3d3a34ae4d72",
+					"jsonFile" : "target-MatrixTesting-Debug-8ea3bc60cbeb5fb0a336.json",
+					"name" : "MatrixTesting",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MatrixVector::@afa1d62a37f3f0129120",
+					"jsonFile" : "target-MatrixVector-Debug-95d1fce11a24b9243904.json",
+					"name" : "MatrixVector",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "VectorTesting::@447dc74c64ffe10758de",
+					"jsonFile" : "target-VectorTesting-Debug-0c982f5a6414dbce2d23.json",
+					"name" : "VectorTesting",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Debug-94925e7b20d389c10f4c.json",
+					"name" : "gmock",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Debug-7c902c09f812cb337c99.json",
+					"name" : "gmock_main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Debug-7bc7dc602948720ceefc.json",
+					"name" : "gtest",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Debug-55b349a47827c4407122.json",
+					"name" : "gtest_main",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ryan/Desktop/Matrix 2/cmake-build-debug",
+		"source" : "/Users/ryan/Desktop/Matrix 2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
